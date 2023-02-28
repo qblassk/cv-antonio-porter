@@ -1,0 +1,116 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 0px;
+}
+
+body h1 {
+   margin-top: 7vh;
+   margin-bottom: 3.3vh;
+   width: 50vw;
+   font-family: 'Roboto', sans-serif;
+   font-size: 5vw;
+   font-weight: 900;
+}
+
+article {
+   position: absolute;
+   margin-top: 1.5vh;
+   width: 45vw;
+   height: 55vh;
+   color: black;
+   background-color: white;
+   z-index: 0;
+}
+
+article h2 {
+   margin-top: 1.3vh;
+   font-family: 'Roboto', sans-serif;
+   font-size: 2vw;
+   font-weight: 400;
+}
+
+article h3 {
+   margin-top: 1.3vh;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2vw;
+   font-weight: 400;
+}
+
+article h4 {
+   margin-top: 1.3vh;
+   color: grey;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2vw;
+   font-weight: 400;
+}
+
+article ul {
+   margin-top: 0.5vh;
+}
+article ul li {
+   list-style-type: none;
+   font-family: 'Roboto slab', serif;
+   font-size: 1.2vw;
+}
+
+article p {
+   margin-top: 0.5vh;
+   width: 45vw;
+   font-family: 'Roboto slab', serif;
+   font-size: 1.2vw;
+}
+
+#info-a {
+   z-index: 1;
+}
+
+.container {
+   display: flex;
+   max-width: 70vw;
+}
+
+.container img {
+   height: 100vh;
+}
+
+.active-on-off {
+   color: rgb(197, 197, 197);
+   font-family: 'Roboto', sans-serif;
+   font-size: 1vw;
+   position: absolute;
+   top: 93vh;
+   right: 50vw;
+   cursor: pointer;
+   z-index: 2;
+}
+
+#on-off-a {
+   color: black;
+   right: 81.8vw;
+}
+
+#on-off-b {
+   right: 70.5vw;
+}
+
+#on-off-c {
+   right: 62.5vw;
+}
+
+#on-off-d {
+   right: 56.5vw;
+}
+
+.redes {
+   position: absolute;
+   top: 93vh;
+   right: 38vw;
+}
